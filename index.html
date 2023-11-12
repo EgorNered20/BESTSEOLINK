@@ -10,10 +10,16 @@
     <script type="text/javascript">
       jQuery(document).ready(function($){
     $('<style>'+
-      '.scrollTop{ display:none; z-index:9999; position:fixed;'+
-        'bottom:70px; left:95%; width:88px; height:125px;'+
-        'background:url(https://welightit.ru/wp-content/uploads/2021/09/right-arrow-e1633025457839.png) 0 0 no-repeat; }' +
-      '.scrollTop:hover{ background-position:0 0;}'
+      '@media screen and (min-width: 768px) {' +
+        '.scrollTop { left: 95%; }' +
+      '}' +
+      '@media screen and (max-width: 767px) {' +
+        '.scrollTop { left: 85%; }' +
+      '}' +
+      '.scrollTop { display:none; z-index:9999; position:fixed;'+
+        'bottom:15px; width:88px; height:125px;'+
+        'background:url(https://modelsroyal.ru/public/assets/img/top.png) 0 0 no-repeat; }' +
+      '.scrollTop:hover { background-position:0 0;}' +
     +'</style>').appendTo('body');
     var
     speed = 550,
