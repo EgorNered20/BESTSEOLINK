@@ -13,3 +13,14 @@ mainsec {
 html {
     scroll-behavior: smooth;
 }
+
+
+@media screen and (min-width: 1024px) {
+    #contact {
+        margin-top: 75px;
+    }
+
+    #tarifs {
+        margin-top: 75px;
+    }
+}
