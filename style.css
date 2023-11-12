@@ -17,18 +17,18 @@ html {
 
 @media screen and (min-width: 1024px) {
     #contact {
-        margin-top: 75px;
+        margin-top: 100px;
     }
 
     #tarifs {
-        margin-top: 75px;
+        margin-top: 100px;
     }
 
     #about {
-        margin-top: 75px;
+        margin-top: 100px;
     }
 
     #features {
-        margin-top: 75px;
+        margin-top: 100px;
     }
 }
